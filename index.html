@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Mandu</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h2 class="logo">🍛 Restaurante Mandu</h2>
+
+  <div class="menu-toggle">☰</div>
+
+  <nav class="nav-links">
+    <a href="#home">Início</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#destaques">Diferenciais</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+    <h1>Comida caseira de verdade</h1>
+    <p>Sabor que conquista todos os dias</p>
+
+    <div class="buttons">
+      <a href="#cardapio" class="btn">Ver Cardápio</a>
+      <a href="https://wa.me/5583999868560" class="btn-outline">WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<section id="cardapio" class="section reveal">
+  <h2>🍽️ Cardápio do Dia</h2>
+  <div id="conteudo-cardapio" class="cardapio-grid"></div>
+</section>
+
+<section id="destaques" class="section reveal">
+  <h2>✨ Por que escolher a gente?</h2>
+
+  <div class="cards">
+    <div class="card">🍲 Comida caseira</div>
+    <div class="card">💰 Preço acessível</div>
+    <div class="card">⚡ Atendimento rápido</div>
+    <div class="card">❤️ Ambiente familiar</div>
+  </div>
+</section>
+
+<section id="galeria" class="section reveal">
+  <h2>📸 Nossos pratos</h2>
+
+  <div class="galeria">
+    <img src="img/imagem1.webp">
+    <img src="img/prato2.jpg">
+    <img src="img/prato3.avif">
+  </div>
+</section>
+
+<section id="contato" class="section contato reveal">
+  <h2>📲 Fale conosco</h2>
+  <p>Estamos te esperando!</p>
+
+  <a href="https://wa.me/5583999868560" class="btn whatsapp">📲 Chamar no WhatsApp</a>
+
+  <a href="https://instagram.com/rodrigsnts_" target="_blank" class="btn instagram">
+  📸 Ver no Instagram</a>
+</section>
+
+<a href="https://wa.me/5583999868560" class="whatsapp-float">💬</a>
+
+<script src="data/cardapio.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>
